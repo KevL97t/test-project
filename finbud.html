@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finbud</title>
+</head>
+<body>
+    <header>
+        <h1>Calcula tus finanzas personales</h1>
+    </header>
+    <section>
+        <form action="">
+            <label for="nuevoIngreso">Ingreso a registrar</label><p></p>
+            <input type="number" id="nuevoIngreso" /><p></p>
+            <label for="nuevoConcepto">Concepto del Ingreso</label><p></p>
+            <input type="text" id="nuevoConcepto"><p></p>
+            <button type="button" onclick="registrarIngresos()" >Registrar</button><p></p>
+        </form>
+        <section>
+            <form action="">
+                <button type="button" onclick="calcularFinanzas()">Calcular</button>
+            </form>
+        </section>
+        <section>
+            <p id="sumaDeIngresos"></p>
+            <p id="mayorIngreso"></p>
+        </section>
+    </section>
+    <script src="./finbud.js"></script>
+</body>
+</html>
