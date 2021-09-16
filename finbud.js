@@ -32,8 +32,6 @@ function calcularMayorValor(){
 
 }
 
-
-
 ////////////FUNCION CON ALGORITMO PARA CALCULO DE FINANZAS
 
 function calcularFinanzas(){
